@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+
+</script>
 <style>
 body {
 background-color: grey;
@@ -8,6 +11,9 @@ h1 {
 background-color: black;
 }
 </style>
+
+
+
 <h1>
 Generic Website Number 12
 </h1>
@@ -20,15 +26,26 @@ This is a Generic Website. Is is fully Generic in every way.
 That should take this to the next line
 <p>
 </body>
-<button onclick="myFunction()">
+<button class="button1">
 Click me!
 </button>
-<form method="get" action="https://www.google.com">
+<form method="get" action="page 2.html">
     <button type="submit">Continue</button>
 </form>
+<img src="generic icon.png">
+<img id="day" src="A day.jpg" style="display:none;">
+
+
 <script>
 function myFunction() {
-  alert("why did you click on the button??");
+var pic = "a day.jpg"
+alert("why did you click on the button??");
+
+document.getElementById('day').src = pic.replace;
+document.getElementById('day').style.display='block';
 }
+
+
+
 </script>
 </html>
